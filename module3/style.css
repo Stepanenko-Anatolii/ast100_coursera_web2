@@ -1,0 +1,72 @@
+.fluid-container {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-navbar {
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.navbar-custom-brand {
+    font-size: 35px;
+    color: white;
+    padding-left: 25px;
+}
+
+.navbar-custom-brand:hover {
+    color: white;
+}
+
+.navbar-custom-header .navbar-custom-toggle {
+    border: 2px solid white;
+    margin-right: 25px;
+}
+
+.custom-icon-bar {
+    background-color: white;
+}
+
+.title-main {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #ff4532;
+    font-size: 50px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+}
+
+.box-content {
+    margin: 20px;
+    color: black;
+    background-color: rgba(0,0,0,0.2);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 20px;
+}
+
+.name-item {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.custom-menu .custom-menu-item {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid black;
+    color: black;
+    display: block;
+}
+
+.custom-menu-item:hover {
+    background-color: rgba(0,0,0,0.9);
+    color: rgba(0,0,0,0.4);
+}
+
+@media (max-width: 767px) {
+    .custom-menu {
+        display: none;
+    }
+}
